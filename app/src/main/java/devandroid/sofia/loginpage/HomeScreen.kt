@@ -226,7 +226,7 @@ fun HomeScreen(
                             spotColor = Color.LightGray
                         )
                         .clickable {
-                            navController.navigate("card_detail/${card.id}/${card.status}/${card.priority}/${card.type}/${card.name}")
+                            navController.navigate("card_detail/${card.id}/${card.name}/${card.status}/${card.priority}/${card.type}")
                         },
                     colors = CardDefaults.cardColors(containerColor = Color.White),
                     shape = RoundedCornerShape(12.dp)
